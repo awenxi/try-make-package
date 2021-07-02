@@ -1,0 +1,22 @@
+{
+    "name": "lingan/try-make-package",
+    "description": "try make a package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+             "Flower\\Rose\\": "src/Flower/Rose",
+             "Flower\\Lily\\": "src/Flower/Lily"
+        }
+    },
+    "authors": [
+        {
+            "name": "awenxi",
+            "email": "awenxi123@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+       "php": ">=7.0"
+    }
+}
